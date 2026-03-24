@@ -1,0 +1,22 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/android": true,
+        "**/ios": true,
+        "**/.bundle": true,
+        "**/__tests__": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        "**/android": true,
+        "**/ios": true,
+        "**/.bundle": true,        
+        "**/__tests__": true
+    }
+}
