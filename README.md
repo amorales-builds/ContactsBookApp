@@ -11,6 +11,7 @@ Una aplicación móvil de contactos desarrollada con **React Native**, que permi
 - 🗑️ **Eliminar contactos** - Elimina contactos que ya no necesites
 - 💾 **Almacenamiento persistente** - Los datos se guardan automáticamente en la base de datos local
 - 🎨 **Interfaz moderna** - Diseño limpio con Material Design 3 usando React Native Paper
+- 🌓 **Modo oscuro/claro** - Alterna entre temas claro y oscuro con un botón en la barra de aplicación
 
 ## 📋 Requisitos Previos
 
@@ -87,6 +88,18 @@ La aplicación utiliza Material Design 3 con colores personalizados:
 
 - **Color Primario**: `#cb4fa6` (rosa)
 - **Color Secundario**: `#03dac4` (turquesa)
+
+### 🌓 Cambio de Tema
+
+La aplicación incluye un **botón de alternancia de tema** en la barra de aplicación (parte superior):
+
+- **Presiona el icono de luna** (🌙) para activar el modo oscuro
+- **Presiona el icono de sol** (☀️) para cambiar al modo claro
+
+El cambio de tema se aplica instantáneamente a toda la aplicación, incluyendo:
+- Color de fondo de las pantallas
+- Colores de texto y componentes
+- Los colores primarios y secundarios personalizados se mantienen en ambos temas
 
 
 ## 📄 Licencia
